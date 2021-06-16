@@ -23,7 +23,7 @@
         android:name=".Application"
 ```
 
-### Create Application file In kotlin folder where MainActivity is placed
+### Create Application.kt file In kotlin folder where MainActivity is placed
 
 ```
 package com.pinetco.notification_boilerplate <- your project class here
@@ -46,7 +46,7 @@ class Application : FlutterApplication(), PluginRegistrantCallback {
 }
 ```
 
-### In MainActivity file
+### In MainActivity.kt file
 
 - here you can create channel for custome sound, icon and other settings
 - here we have 2 channel with ID **noti_push_app_1** & **noti_push_app_2**
