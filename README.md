@@ -106,10 +106,10 @@ class MainActivity: FlutterActivity() {
 
 ## Postman Setup
 
-In Header
+In Header (Remove [] from Authorization)
 ```
 Content-Type:application/json
-Authorization:key=AAAAVryYH8w:APA91bECbX-e2ou2svo5rS419m_3RSh6EMxPZnRHxLOPUj8NLlb8HjM8YOjxJeJPSjYZMefXG_wxodfQssRmejpk7kjYv0C4PKxCKhYBXKy1ylUtI4WnKSd-ho249y70L1Zcw-g2XrMT
+Authorization:key=[your firebase server key here]
 ```
 
 In Body
