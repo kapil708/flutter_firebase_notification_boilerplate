@@ -106,6 +106,9 @@ class MainActivity: FlutterActivity() {
 
 ## Postman Setup
 
+Link : https://fcm.googleapis.com/fcm/send
+Post Method
+
 In Header (Remove [] from Authorization)
 ```
 Content-Type:application/json
@@ -119,11 +122,11 @@ In Body
   "notification": {
     "title": "ASAP Alert",
     "body": "Please open your app",
-    "android_channel_id": "noti_push_app_1"
+    "android_channel_id": "noti_push_app_1" <- your channel ID here (Optional)
   },
   "data": {
     "screen": "/Nexpage1",
-    "click_action": "FLUTTER_NOTIFICATION_CLICK"
+    "click_action": "FLUTTER_NOTIFICATION_CLICK".
   }
 }
 ```
