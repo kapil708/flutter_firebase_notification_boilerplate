@@ -103,3 +103,27 @@ class MainActivity: FlutterActivity() {
     }
 }
 ```
+
+## Postman Setup
+
+In Header
+```
+Content-Type:application/json
+Authorization:key=AAAAVryYH8w:APA91bECbX-e2ou2svo5rS419m_3RSh6EMxPZnRHxLOPUj8NLlb8HjM8YOjxJeJPSjYZMefXG_wxodfQssRmejpk7kjYv0C4PKxCKhYBXKy1ylUtI4WnKSd-ho249y70L1Zcw-g2XrMT
+```
+
+In Body
+```
+{
+  "to": "cXq67ScQRQKHxWOzMJh4M7:APA91bHUNmzKioVHCfP31dooJJybu2_PnHjOZhO5W0VwGM1GQrU7L_oLZxqUbLmi-p5dpTTNYBBfscDlRBs1FPnhEMJqe2JE1LPahbghT5b6v25hCyTwedsSr7AoNE4cS4-s76UMTtyx",
+  "notification": {
+    "title": "ASAP Alert",
+    "body": "Please open your app",
+    "android_channel_id": "noti_push_app_1"
+  },
+  "data": {
+    "screen": "/Nexpage1",
+    "click_action": "FLUTTER_NOTIFICATION_CLICK"
+  }
+}
+```
