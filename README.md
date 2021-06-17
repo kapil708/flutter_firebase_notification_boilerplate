@@ -46,7 +46,7 @@ class Application : FlutterApplication(), PluginRegistrantCallback {
 }
 ```
 
-### In MainActivity.kt file
+### In MainActivity.kt file (Optional -> Only if want custom sound)
 
 - here you can create channel for custome sound, icon and other settings
 - here we have 2 channel with ID **noti_push_app_1** & **noti_push_app_2**
