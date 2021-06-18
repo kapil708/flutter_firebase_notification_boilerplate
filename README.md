@@ -126,7 +126,7 @@ In Body
   },
   "data": {
     "screen": "/Nexpage1",
-    "click_action": "FLUTTER_NOTIFICATION_CLICK".
+    "click_action": "FLUTTER_NOTIFICATION_CLICK"
   }
 }
 ```
